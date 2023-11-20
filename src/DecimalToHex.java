@@ -1,6 +1,5 @@
 public class DecimalToHex {
 
-
     public String calculate(int arg) {
         int decimalNumber = arg;
         String hexadecimalNumber = Integer.toHexString(decimalNumber);
