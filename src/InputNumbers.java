@@ -23,6 +23,10 @@ public class InputNumbers {
 
         System.out.println("результат деления: " + DecimalToHex.calculate(Division.division(firstNumber, secondNumber)));
 
+        Negation.neg(firstNumber);
+
+        Negation.neg(secondNumber);
+
 
     }
 }
