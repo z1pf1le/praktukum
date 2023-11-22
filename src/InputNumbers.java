@@ -27,6 +27,16 @@ public class InputNumbers {
 
         Negation.neg(secondNumber);
 
+        And.and(firstNumber, secondNumber);
+
+        Or.or(firstNumber, secondNumber);
+
+        XOR.xor(firstNumber, secondNumber);
+
+        Left.left(firstNumber, secondNumber);
+
+        Right.right(firstNumber, secondNumber);
+
 
     }
 }
