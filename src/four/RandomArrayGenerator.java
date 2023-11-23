@@ -17,11 +17,17 @@ public class RandomArrayGenerator {
 
         // Вывод сгенерированного массива
         System.out.println(randomArray);
+        int count = 0;
         System.out.println("Сгенерированный массив из " + ARRAY_SIZE + " чисел на интервале [0:" + K + "]:");
         for (int num : randomArray) {
+
             System.out.print(num + " ");
-            System.out.println(PrimeNumberChecker.isPrime(num));
+//            System.out.println(PrimeNumberChecker.isPrime(num));
+            count = count + PrimeNumberChecker.isPrime(num);
         }
+
+        System.out.println("\nпростых: ");
+        System.out.println(count);
     }
 
 }
