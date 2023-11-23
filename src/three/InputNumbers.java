@@ -18,5 +18,9 @@ public class InputNumbers{
 
         System.out.println(Integer.toString(firstNumber) + " " + Integer.toString(secondNumber));
 
+        Proc.ave(firstNumber, secondNumber, thirdNumber);
+
+        MaxOfThree.findMax(firstNumber, secondNumber, thirdNumber);
+
     }
 }
