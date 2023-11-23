@@ -16,7 +16,7 @@ public class InputNumbers{
         System.out.print("Введите третее число: ");
         int thirdNumber = scanner.nextInt();
 
-        System.out.println(Integer.toString(firstNumber) + " " + Integer.toString(secondNumber));
+//        System.out.println(Integer.toString(firstNumber) + " " + Integer.toString(secondNumber));
 
         Proc.ave(firstNumber, secondNumber, thirdNumber);
 
