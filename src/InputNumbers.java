@@ -37,6 +37,18 @@ public class InputNumbers {
 
         Right.right(firstNumber, secondNumber);
 
+        Decrement.dec(firstNumber);
+
+        Decrement.dec(secondNumber);
+
+        Increment.dec(firstNumber);
+
+        Increment.dec(secondNumber);
+
+
+
+
+
 
     }
 }
